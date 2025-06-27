@@ -8,7 +8,8 @@ function App() {
     const savedGroups=localStorage.getItem('notes-group');
     return savedGroups?JSON.parse(savedGroups):[];
   })
-  const [isMobile,setIsMobile]=useState(window.innerWidth <= 360)
+  const [isMobile,setIsMobile]=useState(window.innerWidth <= 430)
+  console.log(window.innerWidth)
   console.log("is MObile",isMobile);
   const [selectedGroup,setSelectedGroup]=useState(null);
   const addGroup=(group)=>{
