@@ -108,6 +108,16 @@
   padding: 1rem;
   color: #FFFFFF;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-container .notes-screen .group-name-container .initials .font{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23px;
+  height: 23px;
 }
 
 .home-container .notes-screen .group-name-container .name{
