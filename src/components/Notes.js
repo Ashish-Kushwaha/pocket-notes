@@ -105,7 +105,7 @@ const Notes = ({
       ) : (
         <div className={styles["home-screen"]}>
           <div className={styles["upper-container"]}>
-            <img src={Image} />
+            <img src={Image} alt="background-image" />
             <h2>Pocket Notes</h2>
             <div className={styles["span-para"]}>
               <span>
