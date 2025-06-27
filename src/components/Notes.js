@@ -58,7 +58,8 @@ const Notes = ({
               className={styles["initials"]}
               style={{ backgroundColor: selectedGroup.color }}
             >
-              {selectedGroup.initials}
+              <div className={styles['font']}>{selectedGroup.initials}</div>
+              
             </div>
             <div className={styles["name"]}>{selectedGroup.name}</div>
           </div>
